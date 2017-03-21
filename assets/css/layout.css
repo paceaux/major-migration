@@ -1,10 +1,4 @@
-/*--------*/
-
-
 /* Layout */
-
-
-/*--------*/
 
 body {
     font-family: 'Lato', sans-serif;
@@ -102,13 +96,7 @@ a:hover {
 }
 
 
-/*---------------*/
-
-
 /* Nav Chart */
-
-
-/*---------------*/
 
 .story {
     display: inline-block;
@@ -202,13 +190,7 @@ a:hover {
 }
 
 
-/*---------------*/
-
-
 /* Toggle Button */
-
-
-/*---------------*/
 
 .checkboxText {
     font-size: .95em;
@@ -228,13 +210,7 @@ a:hover {
 }
 
 
-/*-----------------*/
-
-
 /* Overview Button */
-
-
-/*-----------------*/
 
 .overviewbutton {
     margin: 10px 0px 5px 0;
