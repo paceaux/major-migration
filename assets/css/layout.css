@@ -74,7 +74,6 @@ a:hover {
 }
 
 .footer {
-    font-family: 'Lato';
     font-size: 10px;
     color: #666666;
     margin-left: 0.5em;
@@ -91,7 +90,6 @@ a:hover {
 .commentary text {}
 
 .chartBox {
-    font-family: 'Lato';
     font-size: 9pt;
     color: #4d4d4d;
     width: 100%;
