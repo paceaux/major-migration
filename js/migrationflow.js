@@ -113,7 +113,7 @@ function drawDimension(aggregated_data, dimension) {
 }
 
 function loadAggregate() {
-    d3.csv("idg_div_aggregate6.csv", function(error, csv) {
+    d3.csv("data/idg_div_aggregate6.csv", function(error, csv) {
         if (error) return console.warn(error);
         data = csv;
         var aggregates = d3.nest().key(function(d) { return d.aggregate; }).entries(data);
@@ -168,7 +168,7 @@ function addAggregateLabels() {
 function loadFlows() {
 
     //load the csv file into an object
-    d3.csv("idg_div6.csv", function(error, csv) {
+    d3.csv("data/idg_div6.csv", function(error, csv) {
 
         drawFlows(csv);
 
